@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [".vercel.app", ".now.sh"]
 
@@ -178,7 +178,7 @@ SECRET_KEY = "django-insecure-urzwkpumet#ali!ybcdwi_#p-0g6ay2bk069uqg-+4=59=y5g&
 STRIPE_WEBHOOK_SECRET = "whsec_b34a7dd28ccf3b47d441415e5c22125ba60b1519307eef388ea8e79f63244954"
 
 
-REDIS_HOST = "localhost"
+REDIS_HOST = "upright-colt-51668.upstash.io"
 REDIS_PORT = 6379
 REDIS_DB = 1
 
