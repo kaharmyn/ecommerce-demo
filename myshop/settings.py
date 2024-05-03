@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 # flake8: off
 from pathlib import Path
-from django.utils.translation import gettext_lazy as _
 
 import os
 from os.path import join, dirname
@@ -141,8 +140,6 @@ LOCALE_PATHS = [
 TIME_ZONE = "UTC"
 
 USE_I18N = True
-
-USE_L10N = True
 
 USE_TZ = True
 
